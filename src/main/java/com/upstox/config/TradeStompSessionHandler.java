@@ -54,7 +54,7 @@ public class TradeStompSessionHandler extends StompSessionHandlerAdapter {
     	Subscription subscription= new Subscription();
     	subscription.setEvent("subscribe");
 	 	subscription.setSymbol("XXBTZUSD");
-	 	subscription.setInterval(1);
+	 	subscription.setInterval(15);
         return subscription;
     }
 }

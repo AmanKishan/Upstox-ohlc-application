@@ -25,7 +25,7 @@ public class TradeProducer implements Runnable{
 		this.tradeBroker = tradeBroker;	
 	}
 
-	private static final String TRADE_FILE_PATH = "/Users/arastogi/Downloads/trades.json";
+	private static final String TRADE_FILE_PATH = "trades.json";
 	
 	@Override
 	public void run() {
